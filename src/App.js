@@ -1,19 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-import Home from "./components/Home";
-import Header from "./components/Header";
+import { Layout, Navigation, Drawer, Content, Header } from 'react-mdl';
+import Main from "./components/Main";
+import {Link} from 'react-router-dom';
 
-
-
-
-function App() {
+class App extends Component {
+  render(){
   return (
-    <div>
-    <Header/>
-    <Home/>
-    </div>
+    <div className="demo-big-content">
+    <Layout>
+        <Header className="header-color" title="Laura Pognante" scroll>
+            <Navigation>
+                <Link to="/about">About</Link>
+                <Link to="/skills">Skills</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/curriculum">Curriculum</Link>
+            </Navigation>
+        </Header>
+        <Drawer title="Title">
+            <Navigation>
+            <Link to="/about">About</Link>
+            <Link to="/skills">Skills</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/curriculum">Curriculum</Link>
+            </Navigation>
+        </Drawer>
+        <Content>
+            <div className="page-content" />
+            <Main/>
+        </Content>
+
+    </Layout>
+</div>
   );
+}
 }
 
 export default App;

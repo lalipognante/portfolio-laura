@@ -9,9 +9,10 @@ class App extends Component {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title="Laura Pognante" scroll>
+        <Header className="header-color" title="Portfolio" scroll>
             <Navigation>
                 <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
                 <Link to="/skills">Skills</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/curriculum">Curriculum</Link>

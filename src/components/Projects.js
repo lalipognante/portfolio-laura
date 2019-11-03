@@ -63,14 +63,44 @@ class Projects extends Component{
             )
         } else if (this.state.activeTab === 1){
             return(
-                <div>
-                    <h1>This is Firebase</h1>
+                <div className="projects-grid">
+                {/* Project 1 */}
+                <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+                    <CardTitle style={{color:'black', height:'176px', background:
+                    'url(https://venturebeat.com/wp-content/uploads/2019/09/google-firebase.png?w=1200&strip=all) center / cover'}}> Firebase Project #1</CardTitle>
+                    <CardText>
+                        This is my firebase projects i love it
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>Github</Button>
+                        <Button colored>CodePen</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
                 </div>
             )
         }else if (this.state.activeTab === 2){
                 return(
-                    <div>
-                        <h1>This is React</h1>
+                    <div className="projects-grid">
+                    {/* Project 1 */}
+                    <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+                        <CardTitle style={{color:'black', height:'176px', background:
+                        'url(http://www.danielledeveloper.com/wp-content/uploads/2018/04/Reactjs-logo-e1523253944211.png) center / cover'}}> React Project #1</CardTitle>
+                        <CardText>
+                            This is my react projects i love it
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Github</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#fff'}}>
+                            <IconButton name="share"/>
+                        </CardMenu>
+                    </Card>
                     </div>
                 )
          }

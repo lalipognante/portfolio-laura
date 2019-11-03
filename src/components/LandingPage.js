@@ -14,7 +14,7 @@ class landingPage extends Component{
                 />
 
                 <div className="banner-text">
-                 <h1>Ingeniera Laura Pognante </h1>
+                 <h1>Estudiante Laura Pognante </h1>
                  <hr/>
                   <p>
                     HTML / CSS / Bootstrap / TypeScript / Angular / React / NodeJS / Firebase

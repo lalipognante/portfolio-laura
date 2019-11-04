@@ -18,9 +18,10 @@ class App extends Component {
                 {/* <Link to="/curriculum">Curriculum</Link> */}
             </Navigation>
         </Header>
-        <Drawer title="Portfolio">
+        <Drawer title={<Link style={{textDecoration: 'none', color:'grey'}} to="/">Portfolio</Link>} >
             <Navigation>
             <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
             <Link to="/skillsHome">Skills</Link>
             <Link to="/contact">Contact</Link>
             {/* <Link to="/curriculum">Curriculum</Link> */}

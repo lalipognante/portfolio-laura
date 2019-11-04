@@ -77,6 +77,10 @@ class About extends Component{
                         <p>• Seminario: La Industria del Petróleo (2019)</p>
                         <p>• Seminario Front-End: Universidad Católica de Córdoba (2019)</p>
 
+                        <hr style={{borderTop:'3px solid #e22947'}}/>
+                        <h2>Idiomas</h2>
+                        <p>• Ingles intermedio nivel 2 adultos - 2018 (British School Córdoba) </p>
+                        <p>• Ingles intermedio nivel 3 adultos - 2019 (British School Córdoba)</p>
 
                     </Cell>
                 </Grid>

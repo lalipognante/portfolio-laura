@@ -1,5 +1,6 @@
 import React, {Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
+import {Link} from 'react-router-dom';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills'
@@ -32,7 +33,7 @@ class About extends Component{
                         <h5>Email</h5>
                         <p>lalipognante@gmail.com</p>
                         <h5>Web</h5>
-                        <p>http://192.168.0.147:3000/</p>
+                        <Link>https://portfoliolaura.herokuapp.com</Link>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                     </Cell>
 
@@ -77,6 +78,10 @@ class About extends Component{
                         <p>• Seminario: La Industria del Petróleo (2019)</p>
                         <p>• Seminario Front-End: Universidad Católica de Córdoba (2019)</p>
 
+                        <hr style={{borderTop:'3px solid #e22947'}}/>
+                        <h2>Idiomas</h2>
+                        <p>• Ingles intermedio nivel 2 adultos - 2018 (British School Córdoba) </p>
+                        <p>• Ingles intermedio nivel 3 adultos - 2019 (British School Córdoba)</p>
 
                     </Cell>
                 </Grid>

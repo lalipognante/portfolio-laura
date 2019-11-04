@@ -10,10 +10,10 @@ class skillsHome extends Component{
                 <Grid className="contact-grid">
                     <Cell col={6}>
                     <h2>Habilidades</h2>
-                    <h6>- Conocimiento y manejo de Metodologías Agiles</h6>
-                    <h6>- Conocimiento y manejo de Ingeniería de Requerimientos</h6>
-                    <h6>- Conocimiento y manejo de Base de datos Relacionales</h6>
-                    <h6>- Conocimiento y manejo de Base de datos No Relacionales</h6>
+                    <h6>• Conocimiento y manejo de Metodologías Agiles</h6>
+                    <h6>• Conocimiento y manejo de Ingeniería de Requerimientos</h6>
+                    <h6>• Conocimiento y manejo de Base de datos Relacionales</h6>
+                    <h6>• Conocimiento y manejo de Base de datos No Relacionales</h6>
                     </Cell>
 
                     <Cell col={6}>

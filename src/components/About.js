@@ -3,7 +3,6 @@ import {Grid, Cell} from 'react-mdl';
 import {Link} from 'react-router-dom';
 import Education from './Education';
 import Experience from './Experience';
-import Skills from './Skills'
 
 
 class About extends Component{
@@ -33,7 +32,7 @@ class About extends Component{
                         <h5>Email</h5>
                         <p>lalipognante@gmail.com</p>
                         <h5>Web</h5>
-                        <Link>https://portfoliolaura.herokuapp.com</Link>
+                        <Link to={"/"}>https://portfoliolaura.herokuapp.com</Link>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                     </Cell>
 

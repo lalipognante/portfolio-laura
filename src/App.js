@@ -4,6 +4,8 @@ import { Layout, Navigation, Drawer, Content, Header } from 'react-mdl';
 import Main from "./components/Main";
 import {Link} from 'react-router-dom';
 
+
+
 class App extends Component {
   render(){
   return (
@@ -13,27 +15,26 @@ class App extends Component {
             <Navigation>
                 <Link to="/about">About</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/skillsHome">Skills</Link>
+                <Link to="/SkillsHome">Skills</Link>
                 <Link to="/contact">Contact</Link>
-                {/* <Link to="/curriculum">Curriculum</Link> */}
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color:'grey'}} to="/">Portfolio</Link>} >
             <Navigation>
             <Link to="/about">About</Link>
             <Link to="/projects">Projects</Link>
-            <Link to="/skillsHome">Skills</Link>
+            <Link to="/SkillsHome">Skills</Link>
             <Link to="/contact">Contact</Link>
-            {/* <Link to="/curriculum">Curriculum</Link> */}
             </Navigation>
         </Drawer>
         <Content>
-            <div className="page-content" />
+            <div className="page-content"/>
             <Main/>
         </Content>
-
     </Layout>
-</div>
+    </div>
+    
+
   );
 }
 }

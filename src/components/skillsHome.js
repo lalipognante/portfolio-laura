@@ -1,9 +1,9 @@
 import React, {Component } from 'react';
-import {Grid, Cell , List, ListItem, ListItemContent} from 'react-mdl';
+import {Grid, Cell} from 'react-mdl';
 import Skills from './Skills'
 
 
-class skillsHome extends Component{
+class SkillsHome extends Component{
     render(){
         return(
             <div className="contact-body">
@@ -18,6 +18,7 @@ class skillsHome extends Component{
 
                     <Cell col={6}>
                         <h2>Tecnologías</h2>
+
                         <Skills
                             skill="Angular"
                             progress={100}
@@ -52,12 +53,10 @@ class skillsHome extends Component{
                             progress={50}
                         />
                     </Cell>
-
-
                 </Grid>
             </div>
         )
     }
 }
 
-export default skillsHome;
+export default SkillsHome;

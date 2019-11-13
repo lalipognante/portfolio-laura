@@ -40,7 +40,7 @@ class Contact extends Component{
                                 <ListItem>
                                     <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
                                     <i className="fa fa-map-pin " aria-hidden="true"/>
-                                    Av. Pueyrredon 76, Nva Córdoba
+                                    Córdoba, Argentina
                                     </ListItemContent>    
                                 </ListItem>
 

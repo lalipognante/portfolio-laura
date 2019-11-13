@@ -1,18 +1,21 @@
 import React, {Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
+import SkillsHome from './SkillsHome';
+import About from './About';
+import Projects from './Projects';
 
-class landingPage extends Component{
+class LandingPage extends Component{
     render(){
         return(
             <div style={{width:'100%', margin:'auto'}}>
             <Grid className="Landing-grid">
-                <Cell col={12}>
+
+                <Cell col={12}  className="fondo1" style={{width:'100%', margin:'auto'}}>
                 <img 
                     src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png"
                     alt="avatar"
                     className="avatar-img"
                 />
-
                 <div className="banner-text">
                  <h1>Estudiante Laura Pognante </h1>
                  <hr/>
@@ -27,16 +30,28 @@ class landingPage extends Component{
                     <a href="https://github.com/lalipognante" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-github"  aria-hidden="true"/>
                     </a>
-
                 </div>
-
-
                 </div>
                 </Cell>
-            </Grid>
+
+
+                {/* <Cell col={12} className="fondo2">
+                    <About/>
+                </Cell> */}
+
+                <Cell col={12}>
+                    <Projects/>
+                </Cell>
+
+                <Cell col={12} style={{background:'white'}}> 
+                    <SkillsHome/>         
+                </Cell>
+                
+                </Grid>
+
             </div>
         )
     }
 }
 
-export default landingPage;
+export default LandingPage;

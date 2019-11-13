@@ -19,13 +19,6 @@ class SkillsHome extends Component{
                     <Cell col={6}>
                         <h2>Tecnologías</h2>
 
-                        {/* <div class="meter">
-                         <span style="width:80%;">   
-                            <span class="progress">
-                            </span>
-                          </span>
-                        </div>  */}
-
                         <Skills
                             skill="Angular"
                             progress={100}

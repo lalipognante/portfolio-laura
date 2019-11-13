@@ -9,7 +9,8 @@ class LandingPage extends Component{
         return(
             <div style={{width:'100%', margin:'auto'}}>
             <Grid className="Landing-grid">
-                <Cell col={12} className="fondo1" style={{width:'100%', margin:'auto'}}>
+
+                <Cell col={12}  className="fondo1" style={{width:'100%', margin:'auto'}}>
                 <img 
                     src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png"
                     alt="avatar"
@@ -33,9 +34,10 @@ class LandingPage extends Component{
                 </div>
                 </Cell>
 
-                <Cell col={12} className="fondo2">
+
+                {/* <Cell col={12} className="fondo2">
                     <About/>
-                </Cell>
+                </Cell> */}
 
                 <Cell col={12}>
                     <Projects/>
